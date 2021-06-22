@@ -13,7 +13,9 @@ class Amazon:
         options = webdriver.ChromeOptions()
         options.add_argument("start-maximized")
         options.add_argument('disable-infobars')
-        self.browser=webdriver.Chrome(executable_path=r"\Users\advan\Desktop\chromedriver.exe",options=options)    
+        
+        #Enter your chromedriver exe file path
+        self.browser=webdriver.Chrome(executable_path=r"",options=options)    
     
     def sign_in(self,link,email,password):
         self.browser.get(link)
