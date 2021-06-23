@@ -5,3 +5,6 @@ Install chromedriver in your system
 Then put the exe path for chromedriver in the first path
 
 then enter your email id and password in the following variable
+
+Youtube link:
+https://www.youtube.com/watch?v=whDpdhk3SaM
