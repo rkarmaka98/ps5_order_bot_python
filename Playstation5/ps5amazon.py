@@ -1,12 +1,5 @@
 import time
 from selenium import webdriver 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-
-
-
 
 class Amazon:
     def __init__(self):
@@ -27,8 +20,6 @@ class Amazon:
         login_pass.send_keys(password)
         sign_final=self.browser.find_element_by_id("signInSubmit")
         sign_final.click()
-
-
 
     def add_to_card(self,link):
         time.sleep(1)
